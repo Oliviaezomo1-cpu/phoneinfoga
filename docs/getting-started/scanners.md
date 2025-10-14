@@ -21,7 +21,7 @@ phoneinfoga scan -n +4176418xxxx --env-file=.env.local
 
 ### Scanner options
 
-When using the **REST API**, you can also specify those values on a per-request basis. Each scanner supports its own options, see below. For details on how to specify those options, see [API docs](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml#/Numbers/RunScanner). For readability and simplicity, options are named exactly like their environment variable equivalent.
+When using the **REST API**, you can also specify those values on a per-request basis. Each scanner supports its own options, see below. For details on how to specify those options, see [API docs](https://petstore.swagger hi.io/?url=https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/web/docs/swagger.yaml#/Numbers/RunScanner). For readability and simplicity, options are named exactly like their environment variable equivalent.
 
 !!! warning
     Scanner options will override environment variables for the current request.
